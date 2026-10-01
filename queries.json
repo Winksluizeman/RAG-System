@@ -1,0 +1,82 @@
+[
+  {
+    "id": "q01",
+    "query": "Hoeveel compensatie krijg ik als mijn vlucht van meer dan 3.500 km vier uur of langer vertraagd is?",
+    "answerable": true,
+    "gold_snippets": ["600 eur voor alle niet onder a) of b) vallende vluchten"],
+    "verwacht_docs": [1, 25, 40],
+    "opmerking": "Zoektip: zoek op '600 euro' en '3 500 kilometer'"
+  },
+  {
+    "id": "q02",
+    "query": "Binnen hoeveel dagen moet mijn ticket worden terugbetaald als de vlucht is geannuleerd?",
+    "answerable": true,
+    "gold_snippets": ["volledige terugbetaling van het ticket binnen zeven dagen"],
+    "verwacht_docs": [1, 31, 32],
+    "opmerking": "Zoektip: zoek op 'zeven dagen' of '7 dagen'"
+  },
+  {
+    "id": "q03",
+    "query": "Wat moet ik doen als mijn koffer beschadigd of kwijt is na de vlucht?",
+    "answerable": true,
+    "gold_snippets": ["meld je probleem bij de servicebalie en vul zo snel mogelijk het ‘pir-formulier’ in."],
+    "verwacht_docs": [34, 36],
+    "opmerking": "Zoektip: zoek op 'PIR'. Zelfde feit staat in meerdere bronnen"
+  },
+  {
+    "id": "q04",
+    "query": "Heb ik als reiziger met een beperkte mobiliteit recht op hulp op het vliegveld, en kost dat extra?",
+    "answerable": true,
+    "gold_snippets": ["vermelde bijstand zonder bijkomende kosten verlenen aan gehandicapten of personen met beperkte mobiliteit"],
+    "verwacht_docs": [2],
+    "opmerking": "Zoektip: zoek op 'zonder extra kosten' of 'assistentie'"
+  },
+  {
+    "id": "q05",
+    "query": "Hoeveel van de ticketprijs krijg ik terug als mijn trein 90 minuten te laat is?",
+    "answerable": true,
+    "gold_snippets": ["25 % van de prijs van het vervoerbewijs bij een vertraging van 60"],
+    "verwacht_docs": [7, 28],
+    "opmerking": "Zoektip: zoek op '25 %' en 'vertraging van 60'"
+  },
+  {
+    "id": "q06",
+    "query": "Wat gebeurt er met mijn geld als de organisator van mijn pakketreis failliet gaat?",
+    "answerable": true,
+    "gold_snippets": ["in geval van insolventie de terugbetaling van betalingen"],
+    "verwacht_docs": [11],
+    "opmerking": "Zoektip: zoek op 'insolventie'"
+  },
+  {
+    "id": "q07",
+    "query": "Mijn touringcar vertrekt meer dan twee uur te laat. Kan ik mijn geld terugkrijgen?",
+    "answerable": true,
+    "gold_snippets": ["meer dan 120 minuten vertraging oploopt, heeft de passagier"],
+    "verwacht_docs": [10, 29],
+    "opmerking": "Zoektip: zoek op '120 minuten'"
+  },
+  {
+    "id": "q08",
+    "query": "Welke rechten heb ik volgens Verordening 1371/2007 als mijn trein vertraagd is?",
+    "answerable": true,
+    "gold_snippets": ["verordening (eg) nr. 1371/2007 wordt ingetrokken met ingang van 7 juni 2023"],
+    "verwacht_docs": [8, 7],
+    "opmerking": "EDGE: verouderde bron. Doc 8 is ingetrokken; goed antwoord noemt dat 2021/782 het vervangt"
+  },
+  {
+    "id": "q09",
+    "query": "Wanneer gaat ETIAS precies in?",
+    "answerable": false,
+    "gold_snippets": [],
+    "verwacht_docs": [],
+    "opmerking": "EDGE: verordening noemt geen vaste datum; het systeem mag geen datum verzinnen. Controleer zelf met 'zoek'"
+  },
+  {
+    "id": "q10",
+    "query": "Wat kost een KLM-ticket naar Tokyo volgend jaar?",
+    "answerable": false,
+    "gold_snippets": [],
+    "verwacht_docs": [],
+    "opmerking": "EDGE: buiten de knowledge base; goed antwoord zegt dat het niet in de bronnen staat"
+  }
+]
